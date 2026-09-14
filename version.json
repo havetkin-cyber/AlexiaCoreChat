@@ -1,7 +1,7 @@
 {
-  "versionName": "1.1.0",
-  "versionCode": 2,
-  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.1.0/AlexiaCoreChat.apk",
+  "versionName": "1.1.1",
+  "versionCode": 3,
+  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.1.1/AlexiaCoreChat.apk",
   "sizeBytes": 50303529,
-  "notes": "• Nové logo – bublina so správou\n• Úvodná animácia pri spustení\n• Mazanie účtu a kontrola aktualizácií presunuté pod položku Systém\n• Prehľadnejší profil"
+  "notes": "• Opravený pád aplikácie po spustení\n• Nové logo – bublina so správou\n• Úvodná animácia\n• Mazanie účtu a aktualizácie pod položkou Systém"
 }
