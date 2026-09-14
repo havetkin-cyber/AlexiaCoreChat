@@ -50,6 +50,7 @@ Súkromný chat pre Android s koncovým šifrovaním správ aj hovorov. Bez e-ma
 
 ## Pripravujeme
 
+- ⬜ Mazanie správ zo servera hneď po doručení (najviac 24 hodín čakania)
 - ⬜ Nahlasovanie chýb priamo z aplikácie
 - ⬜ Webová verzia pre telefóny bez Androidu
 - ⬜ Podpora starších Androidov
