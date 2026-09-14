@@ -1,7 +1,7 @@
 {
-  "versionName": "1.2.0",
-  "versionCode": 5,
-  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.2.0/AlexiaCoreChat.apk",
+  "versionName": "1.2.1",
+  "versionCode": 6,
+  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.2.1/AlexiaCoreChat.apk",
   "sizeBytes": 50303533,
-  "notes": "• Nové: zmena PIN kódu v nastaveniach (Profil → Systém)\n• Nové logo a úvodná animácia\n• Čistejšia prihlasovacia obrazovka"
+  "notes": "• Téma je teraz rozbaľovacia položka v profile\n• Zmena PIN kódu v nastaveniach (Profil → Systém)\n• Prehľadnejší profil"
 }
