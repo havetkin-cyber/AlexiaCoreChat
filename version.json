@@ -1,0 +1,7 @@
+{
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.0.0/AlexiaCoreChat.apk",
+  "sizeBytes": 50286733,
+  "notes": "Prvé vydanie.\n\n• Šifrované správy a hlasové hovory\n• Prihlásenie PINom, po 3 zlých pokusoch sa účet vymaže\n• Svetlá a tmavá téma\n• Automatické aktualizácie z GitHubu"
+}
