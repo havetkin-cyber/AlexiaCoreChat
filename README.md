@@ -1,98 +1,93 @@
-# Alexia Core Chat
+# 💬 Alexia Core Chat
 
-Šifrovaná četovacia aplikácia pre Android bez e-mailu, telefónneho čísla a hesla.
-Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
+Súkromný chat pre Android s koncovým šifrovaním správ aj hovorov. Bez e-mailu, bez telefónneho čísla.
 
 **Aktuálna verzia: 1.2.1**
 
----
-
-## V pláne
-
-- [ ] Nahlasovanie chýb priamo z aplikácie + prehľad na počítači
-- [ ] Webová verzia pre telefóny bez Androidu
-- [ ] Podpora starších Androidov (teraz je potrebný Android 13+)
-- [ ] TURN server, ak by hovory cez mobilné dáta nespájali
-- [ ] Skupinové chaty
+[⬇️ Stiahnuť najnovšiu verziu](https://github.com/havetkin-cyber/AlexiaCoreChat/releases/latest)
 
 ---
 
-## Hotové
+## Čo aplikácia vie
 
 ### Šifrovanie a bezpečnosť
-
-- [x] End-to-end šifrovanie správ (RSA-2048 + AES-256-GCM)
-- [x] Opravená nefunkčná dešifrovacia funkcia (nesúlad MGF1 v Android Keystore)
-- [x] Šifrovaná história správ aj kontakty v telefóne
-- [x] Pripnuté kľúče kontaktov + bezpečnostný kód na overenie
-- [x] Zmena kľúča kontaktu sa prijme a viditeľne oznámi
-- [x] Nečitateľné správy sa zmažú a používateľ je upozornený
-- [x] Firestore pravidlá – k správam sa dostane iba adresát
-- [x] Súkromné kľúče v hardvérovom Android Keystore, telefón ich nikdy neopustia
+- ✅ Koncové šifrovanie správ (RSA-2048 + AES-256-GCM)
+- ✅ Šifrovaná história správ aj kontakty priamo v telefóne
+- ✅ Pripnuté kľúče kontaktov a bezpečnostný kód na overenie
+- ✅ Zmena kľúča kontaktu sa viditeľne oznámi
+- ✅ Nečitateľné správy sa zmažú a upozornia ťa
+- ✅ K správam sa dostane iba adresát – nikto iný
+- ✅ Súkromné kľúče uložené v hardvérovom trezore telefónu
 
 ### Doručovanie a hovory
-
-- [x] Šifrované hlasové hovory (WebRTC, priame spojenie medzi telefónmi)
-- [x] Adresa príjemcu sa overuje pri každom odoslaní
-- [x] Upozornenie na zmeškaný hovor pri zastaralom kľúči
-- [x] Kontrola všetkých kontaktov hneď po štarte
-- [x] Notifikácie aj pri zavretej aplikácii
+- ✅ Šifrované hlasové hovory
+- ✅ Adresa príjemcu sa overuje pri každom odoslaní
+- ✅ Upozornenie na zmeškaný hovor pri zastaralom kľúči
+- ✅ Kontrola všetkých kontaktov hneď po spustení
+- ✅ Notifikácie aj pri zavretej aplikácii
 
 ### Účet a PIN
-
-- [x] Registrácia bez e-mailu – iba 12-miestne ID a PIN
-- [x] Po 3 zlých PINoch sa účet zmaže a ID sa uvoľní na serveri
-- [x] Vymazanie účtu s uvoľnením ID
-- [x] Zmena PIN kódu v nastaveniach
+- ✅ Registrácia bez e-mailu – stačí 12-miestne ID a PIN
+- ✅ Po troch zlých PINoch sa účet zmaže a ID sa uvoľní
+- ✅ Vymazanie účtu aj s uvoľnením ID
+- ✅ Zmena PIN kódu v nastaveniach
 
 ### Vzhľad
-
-- [x] Logo – bublina so správou
-- [x] Úvodná animácia pri spustení
-- [x] Svetlá a tmavá téma vrátane prihlasovacej obrazovky
-- [x] Téma ako rozbaľovacia položka v profile
-- [x] Systémové voľby schované pod položkou Systém
+- ✅ Logo v podobe bubliny so správou
+- ✅ Úvodná animácia pri spustení
+- ✅ Svetlá a tmavá téma vrátane prihlasovacej obrazovky
+- ✅ Voľba témy priamo v profile
+- ✅ Systémové nastavenia prehľadne pod jednou položkou
 
 ### Aktualizácie
+- ✅ Automatické aktualizácie priamo v aplikácii
+- ✅ Ručná kontrola v Profil → Systém
+- ✅ Aktualizácie bez straty správ a kontaktov
 
-- [x] Automatické aktualizácie z GitHubu
-- [x] Kontrola cez `version.json`, záloha cez Releases
-- [x] Ručná kontrola v Profil → Systém
-- [x] Podpísaná release verzia vlastným kľúčom
+---
+
+## Pripravujeme
+
+- ⬜ Nahlasovanie chýb priamo z aplikácie
+- ⬜ Webová verzia pre telefóny bez Androidu
+- ⬜ Podpora starších Androidov
+- ⬜ Spoľahlivejšie spájanie hovorov cez mobilné dáta
+- ⬜ Skupinové chaty
 
 ---
 
 ## Vydané verzie
 
-| Verzia | Čo prinesla | Stav |
-|---|---|---|
+| Verzia | Čo priniesla | Stav |
+|--------|--------------|------|
 | 1.0.0 | Prvé vydanie, automatické aktualizácie | vydané |
-| 1.1.0 | Logo a animácia | zmazané – padala |
 | 1.1.1 | Oprava pádu po spustení | vydané |
 | 1.1.2 | Čistejšia prihlasovacia obrazovka | vydané |
 | 1.2.0 | Zmena PIN kódu | vydané |
-| **1.2.1** | Téma ako rozbaľovacia položka | **aktuálna** |
+| **1.2.1** | Voľba témy priamo v profile | **aktuálna** |
 
 ---
 
 ## Inštalácia
 
-APK sa nachádza v sekcii [Releases](https://github.com/havetkin-cyber/AlexiaCoreChat/releases).
+1. Stiahni si súbor `.apk` zo sekcie [Releases](https://github.com/havetkin-cyber/AlexiaCoreChat/releases/latest)
+2. V telefóne ho otvor cez **Súbory**
+3. Ak sa objaví upozornenie, povoľ **inštaláciu z tohto zdroja**
+4. Ťukni na **Inštalovať**
 
-Súbor `AlexiaCoreChat.apk` je univerzálny – funguje na všetkých procesoroch.
-Pri inštalácii treba povoliť inštaláciu z neznámych zdrojov.
-
-**Požiadavka:** Android 13 alebo novší.
-
-Aktualizácie si aplikácia hľadá sama a ponúkne ich pri spustení.
+> Ďalšie aktualizácie ti aplikácia ponúkne sama – správy ani kontakty sa pritom nestratia.
 
 ---
 
 ## Ako to funguje
 
-Server nevidí obsah správ – prenáša iba zašifrované bloky.
-Odosielateľ zašifruje správu verejným kľúčom príjemcu, rozlúštiť ju dokáže
-jedine jeho telefón. Hovory idú priamo medzi telefónmi, signalizácia je
-šifrovaná rovnakým spôsobom ako správy.
+Pri registrácii dostaneš **12-miestne ID**. To je jediné, čo o sebe komukoľvek prezradíš – žiadny e-mail, žiadne telefónne číslo.
 
-Prezývky kontaktov sú len lokálne – na server sa neposielajú.
+Správy sa zašifrujú priamo v tvojom telefóne a rozšifrovať ich dokáže **iba príjemca**. Kľúč na ich prečítanie neopustí zariadenie.
+
+---
+
+## Požiadavky
+
+- Android 13 alebo novší
+- Pripojenie na internet
