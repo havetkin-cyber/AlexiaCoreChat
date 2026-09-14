@@ -96,14 +96,3 @@ jedine jeho telefón. Hovory idú priamo medzi telefónmi, signalizácia je
 šifrovaná rovnakým spôsobom ako správy.
 
 Prezývky kontaktov sú len lokálne – na server sa neposielajú.
-
----
-
-## Poznámky pre vývoj
-
-- Build Variants v Android Studio musí byť nastavený na `release`.
-  Debug verzia má iný podpis a jej nasadenie zmaže účet aj šifrovacie kľúče.
-- Podpisový kľúč `alexia-release.jks` uchovať aj mimo počítača –
-  bez neho sa nedá vydať aktualizácia.
-- „Vymazať účet" nie je reset. Zahodí kľúč a všetky kontakty
-  musia používateľa pridať nanovo.
