@@ -17,6 +17,7 @@ Súkromný chat pre Android s koncovým šifrovaním správ aj hovorov. Bez e-ma
 - ✅ Zmena kľúča kontaktu sa viditeľne oznámi
 - ✅ Nečitateľné správy sa zmažú a upozornia ťa
 - ✅ Správy putujú cez súkromnú databázu, nie cez služby tretích strán
+- ✅ Obsah správ je nečitateľný aj pre správcu databázy
 - ✅ K správam sa dostane iba adresát – nikto iný
 - ✅ Súkromné kľúče uložené v hardvérovom trezore telefónu
 
@@ -86,7 +87,9 @@ Pri registrácii dostaneš **12-miestne ID**. To je jediné, čo o sebe komukoľ
 
 Správy sa zašifrujú priamo v tvojom telefóne a rozšifrovať ich dokáže **iba príjemca**. Kľúč na ich prečítanie neopustí zariadenie.
 
-Všetko beží na **súkromnej databáze** – žiadne cudzie služby, ktoré by videli, kto komu píše.
+Všetko beží na **súkromnej databáze** – žiadne cudzie služby.
+
+V databáze sú uložené iba zašifrované správy. Ani ja ako prevádzkovateľ nedokážem prečítať, čo si píšeš – bez kľúča, ktorý máš v telefóne, je to len nezmyselná zmes znakov.
 
 ---
 
