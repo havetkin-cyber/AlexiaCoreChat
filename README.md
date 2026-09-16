@@ -3,7 +3,7 @@
 Šifrovaná četovacia aplikácia pre Android bez e-mailu, telefónneho čísla a hesla.
 Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 
-**Aktuálna verzia: 1.3.0**
+**Aktuálna verzia: 1.4.0**
 
 ---
 
@@ -48,11 +48,14 @@ Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 
 - [x] Nahlásenie chyby priamo z aplikácie (Profil → Systém)
 - [x] K hláseniu sa priloží model telefónu, verzia Androidu a verzia aplikácie
-- [x] Samostatná správcovská aplikácia na čítanie hlásení
+- [x] Moje hlásenia – používateľ vidí odpoveď na svoje hlásenie
+- [x] Samostatná správcovská aplikácia na čítanie hlásení a odpovedanie
 - [x] Upozornenie pri novom hlásení
+- [x] Hlásenia vidí iba ich autor a správca
 
 ### Vzhľad
 
+- [x] ID je skryté, kým ho používateľ sám nezobrazí, a dá sa skopírovať
 - [x] Logo – bublina so správou
 - [x] Úvodná animácia pri spustení
 - [x] Svetlá a tmavá téma vrátane prihlasovacej obrazovky
@@ -78,7 +81,8 @@ Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 | 1.1.2 | Čistejšia prihlasovacia obrazovka | vydané |
 | 1.2.0 | Zmena PIN kódu | vydané |
 | 1.2.1 | Téma ako rozbaľovacia položka | vydané |
-| **1.3.0** | Nahlasovanie chýb z aplikácie | **aktuálna** |
+| 1.3.0 | Nahlasovanie chýb z aplikácie | vydané |
+| **1.4.0** | Moje hlásenia, skryté ID | **aktuálna** |
 
 ---
 
