@@ -1,7 +1,7 @@
 {
-  "versionName": "1.3.0",
-  "versionCode": 7,
-  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.3.0/AlexiaCoreChat.apk",
-  "sizeBytes": 50303529,
-  "notes": "• Nové: nahlásenie chyby priamo z aplikácie (Profil → Systém)\n• Zmena PIN kódu v nastaveniach\n• Téma ako rozbaľovacia položka\n• Nové logo a úvodná animácia"
+  "versionName": "1.4.0",
+  "versionCode": 8,
+  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.4.0/AlexiaCoreChat.apk",
+  "sizeBytes": 50319917,
+  "notes": "• Nové: Moje hlásenia – uvidíte odpoveď na nahlásenú chybu\n• ID je skryté, kým ho sami nezobrazíte\n• Tlačidlo na skopírovanie ID\n• Prehľadnejší profil"
 }
