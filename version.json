@@ -1,7 +1,7 @@
 {
-  "versionName": "1.5.0",
-  "versionCode": 9,
-  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.5.0/AlexiaCoreChat.apk",
-  "sizeBytes": 50319917,
-  "notes": "• Nové: Používanie systémových zvukov a melódií nastavených v telefóne pre hovory a správy\n• Moje hlásenia – uvidíte odpoveď na nahlásenú chybu\n• Skryté ID v profile"
+  "versionName": "1.6.0",
+  "versionCode": 10,
+  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.6.0/AlexiaCoreChat.apk",
+  "sizeBytes": 50336301,
+  "notes": "• Zmeškaný hovor sa zobrazí priamo v chate s daným človekom\n• V chate vidíte aj odmietnuté a uskutočnené hovory s trvaním\n• Upozornenie na zmeškaný hovor\n• Neprijatý hovor sa ukončí sám po 30 sekundách"
 }
