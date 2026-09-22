@@ -1,7 +1,7 @@
 {
-  "versionName": "1.4.0",
-  "versionCode": 8,
-  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.4.0/AlexiaCoreChat.apk",
+  "versionName": "1.5.0",
+  "versionCode": 9,
+  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.5.0/AlexiaCoreChat.apk",
   "sizeBytes": 50319917,
-  "notes": "• Nové: Moje hlásenia – uvidíte odpoveď na nahlásenú chybu\n• ID je skryté, kým ho sami nezobrazíte\n• Tlačidlo na skopírovanie ID\n• Prehľadnejší profil"
+  "notes": "• Nové: Používanie systémových zvukov a melódií nastavených v telefóne pre hovory a správy\n• Moje hlásenia – uvidíte odpoveď na nahlásenú chybu\n• Skryté ID v profile"
 }
