@@ -3,7 +3,7 @@
 Šifrovaná četovacia aplikácia pre Android bez e-mailu, telefónneho čísla a hesla.
 Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 
-**Aktuálna verzia: 1.5.0**
+**Aktuálna verzia: 1.6.0**
 
 ---
 
@@ -34,6 +34,10 @@ Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 - [x] Používanie systémového zvonenia (melódie/skladby) nastaveného v telefóne pre prichádzajúce hovory
 - [x] Používanie systémového zvuku upozornenia nastaveného v telefóne pre nové správy
 - [x] Šifrované hlasové hovory (WebRTC, priame spojenie medzi telefónmi)
+- [x] Zmeškaný hovor sa zobrazí priamo v chate s daným človekom
+- [x] Záznam odmietnutých a uskutočnených hovorov vrátane trvania
+- [x] Upozornenie na zmeškaný hovor
+- [x] Neprijatý hovor sa ukončí sám po 30 sekundách
 - [x] Adresa príjemcu sa overuje pri každom odoslaní
 - [x] Upozornenie na zmeškaný hovor pri zastaralom kľúči
 - [x] Kontrola všetkých kontaktov hneď po štarte
@@ -85,7 +89,8 @@ Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 | 1.2.1 | Téma ako rozbaľovacia položka | vydané |
 | 1.3.0 | Nahlasovanie chýb z aplikácie | vydané |
 | 1.4.0 | Moje hlásenia, skryté ID | vydané |
-| **1.5.0** | Systémové zvuky pre hovory a správy | **aktuálna** |
+| 1.5.0 | Systémové zvuky pre hovory a správy | vydané |
+| **1.6.0** | Zmeškané hovory v chate | **aktuálna** |
 
 ---
 
