@@ -3,7 +3,7 @@
 Šifrovaná četovacia aplikácia pre Android bez e-mailu, telefónneho čísla a hesla.
 Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 
-**Aktuálna verzia: 1.4.0**
+**Aktuálna verzia: 1.5.0**
 
 ---
 
@@ -29,8 +29,10 @@ Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 - [x] Firestore pravidlá – k správam sa dostane iba adresát
 - [x] Súkromné kľúče v hardvérovom Android Keystore, telefón ich nikdy neopustia
 
-### Doručovanie a hovory
+### Zvuky a doručovanie
 
+- [x] Používanie systémového zvonenia (melódie/skladby) nastaveného v telefóne pre prichádzajúce hovory
+- [x] Používanie systémového zvuku upozornenia nastaveného v telefóne pre nové správy
 - [x] Šifrované hlasové hovory (WebRTC, priame spojenie medzi telefónmi)
 - [x] Adresa príjemcu sa overuje pri každom odoslaní
 - [x] Upozornenie na zmeškaný hovor pri zastaralom kľúči
@@ -82,7 +84,8 @@ Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 | 1.2.0 | Zmena PIN kódu | vydané |
 | 1.2.1 | Téma ako rozbaľovacia položka | vydané |
 | 1.3.0 | Nahlasovanie chýb z aplikácie | vydané |
-| **1.4.0** | Moje hlásenia, skryté ID | **aktuálna** |
+| 1.4.0 | Moje hlásenia, skryté ID | vydané |
+| **1.5.0** | Systémové zvuky pre hovory a správy | **aktuálna** |
 
 ---
 
