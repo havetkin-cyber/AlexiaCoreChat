@@ -3,7 +3,7 @@
 Šifrovaná četovacia aplikácia pre Android bez e-mailu, telefónneho čísla a hesla.
 Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 
-**Aktuálna verzia: 1.6.0**
+**Aktuálna verzia: 1.6.1**
 
 ---
 
@@ -73,6 +73,7 @@ Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 - [x] Automatické aktualizácie z GitHubu
 - [x] Kontrola cez `version.json`, záloha cez Releases
 - [x] Ručná kontrola v Profil → Systém
+- [x] Nová verzia sa nájde aj pri návrate do aplikácie, nielen po úplnom vypnutí
 - [x] Podpísaná release verzia vlastným kľúčom
 
 ---
@@ -90,7 +91,8 @@ Namiesto účtu slúži 12-miestne ID, prístup chráni PIN.
 | 1.3.0 | Nahlasovanie chýb z aplikácie | vydané |
 | 1.4.0 | Moje hlásenia, skryté ID | vydané |
 | 1.5.0 | Systémové zvuky pre hovory a správy | vydané |
-| **1.6.0** | Zmeškané hovory v chate | **aktuálna** |
+| 1.6.0 | Zmeškané hovory v chate | vydané |
+| **1.6.1** | Oprava hľadania aktualizácií | **aktuálna** |
 
 ---
 
