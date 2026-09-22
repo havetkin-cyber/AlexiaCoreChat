@@ -1,7 +1,7 @@
 {
-  "versionName": "1.6.0",
-  "versionCode": 10,
-  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.6.0/AlexiaCoreChat.apk",
+  "versionName": "1.6.1",
+  "versionCode": 11,
+  "apkUrl": "https://github.com/havetkin-cyber/AlexiaCoreChat/releases/download/v1.6.1/AlexiaCoreChat.apk",
   "sizeBytes": 50336301,
-  "notes": "• Zmeškaný hovor sa zobrazí priamo v chate s daným človekom\n• V chate vidíte aj odmietnuté a uskutočnené hovory s trvaním\n• Upozornenie na zmeškaný hovor\n• Neprijatý hovor sa ukončí sám po 30 sekundách"
+  "notes": "• Oprava: aktualizácia sa nájde aj pri návrate do aplikácie, nielen po úplnom vypnutí\n• Zmeškaný hovor sa zobrazí priamo v chate s daným človekom\n• V chate vidíte aj odmietnuté a uskutočnené hovory s trvaním"
 }
